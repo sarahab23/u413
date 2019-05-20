@@ -14,7 +14,7 @@ u413 - an open-source BBS/terminal/PI-themed forum
     You should have received a copy of the GNU Affero General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-Boards:
+###Boards:
 	1/0 -- Paradox*
 	i -- Imaginary* ?
 	-1 -- Negative*
@@ -55,7 +55,7 @@ Boards:
 	122112 -- End of the World*
 *=hidden
 
--= Easter Egg Commands =-
+##-= Easter Egg Commands =-
 	DO A BARREL ROLL - do what Google does
 	TILT - tilt u413
 	^^VV<><>BABA - Matrix (or something else cool)
@@ -77,12 +77,12 @@ Boards:
 	KILL IT WITH FIRE - Make fire burn the page
 	BADGERS - MrWeebl's "Badgers"
 
--= Global Commands =-
+##-= Global Commands =-
 	CANCEL - Cancels the current action.
 	CLS - Clears the screen.
 	HELP [Command] - Displays the help menu.
 
--= User Commands =-
+##-= User Commands =-
 	ALIAS <Shortcut/DELETE> <Value/Shortcut> - Allows you to specify a terminal shortcut command.
 	BOARD <ID/ALL> [Page#/NEWTOPIC] [/TITLE <Title>] [/BODY <Body>] - Displays a list of topics associated with the specified discussion board.
 	BOARDS - Displays a list of board categories.
@@ -97,14 +97,14 @@ Boards:
 	USERS - Displays a list of online users.
 	INITIALIZE - Prints the introduction to u413 (Only works before login) *
 
--= Page Shortcut Commands =-
+##-= Page Shortcut Commands =-
 	REFRESH - Reload the current page.
 	NEXT - Increase the current page by one.
 	PREV - Decrease the current page by one.
 	FIRST - Change current page to the first page.
 	LAST - Change current page to the last page.
 
--= Formatting Tags =-
+##-= Formatting Tags =-
 	[b]text[/b] - Bolds the surrounded text.
 	[i]text[/i] - Italicizes the surrounded text.
 	[u]text[/u] - Underlines the surrounded text.
@@ -157,7 +157,7 @@ Responses returned by u413 are JSON with the following format:
 	]
 }
 
-Database organization:
+#Database organization:
 
 User: u413
 	Database: userdata
